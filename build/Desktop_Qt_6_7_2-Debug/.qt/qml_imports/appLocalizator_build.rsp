@@ -1,0 +1,14 @@
+-rootPath
+/home/nintys/Documents/Localizator
+-cmake-output
+-output-file
+/home/nintys/Documents/Localizator/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appLocalizator_build.cmake
+-importPath
+/home/nintys/Documents/Localizator/build/Desktop_Qt_6_7_2-Debug/Localizator
+-importPath
+/home/nintys/Documents/Localizator/build/Desktop_Qt_6_7_2-Debug
+-importPath
+/home/nintys/Qt/6.7.2/gcc_64/./qml
+-qrcFiles
+/home/nintys/Documents/Localizator/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Localizator.qrc
+/home/nintys/Documents/Localizator/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appLocalizator_raw_qml_0.qrc

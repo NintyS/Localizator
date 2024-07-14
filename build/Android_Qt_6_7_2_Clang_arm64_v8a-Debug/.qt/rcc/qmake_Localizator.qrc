@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Localizator">
+    <file alias="qmldir">/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/Localizator/qmldir</file>
+  </qresource>
+</RCC>
+

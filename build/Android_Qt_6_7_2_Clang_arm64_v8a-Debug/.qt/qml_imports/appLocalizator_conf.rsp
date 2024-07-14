@@ -1,0 +1,14 @@
+-rootPath
+/home/nintys/Documents/Localizator
+-cmake-output
+-output-file
+/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/.qt/qml_imports/appLocalizator_conf.cmake
+-importPath
+/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/Localizator
+-importPath
+/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug
+-importPath
+/home/nintys/Qt/6.7.2/android_arm64_v8a/./qml
+-qrcFiles
+/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/.qt/rcc/qmake_Localizator.qrc
+/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/.qt/rcc/appLocalizator_raw_qml_0.qrc

@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "PositionManager",
+            "object": true,
+            "qualifiedClassName": "PositionManager",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "latitude",
+                            "type": "double"
+                        },
+                        {
+                            "name": "longitude",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "sendPos",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "getPos",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "getUUID",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "positionmanager.h",
+    "outputRevision": 68
+}

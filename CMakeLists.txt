@@ -4,7 +4,7 @@ project(Localizator VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.4 REQUIRED COMPONENTS Quick Positioning Location)
+find_package(Qt6 6.4 REQUIRED COMPONENTS Quick Positioning Location Network)
 
 qt_standard_project_setup()
 
@@ -18,6 +18,7 @@ qt_add_qml_module(appLocalizator
     VERSION 1.0
     QML_FILES
         Main.qml
+        SOURCES positionmanager.h positionmanager.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -36,7 +37,7 @@ set_property(TARGET appLocalizator APPEND PROPERTY
 )
 
 target_link_libraries(appLocalizator
-    PRIVATE Qt6::Quick Qt6::Positioning Qt6::Location
+    PRIVATE Qt6::Quick Qt6::Positioning Qt6::Location Qt6::Network
 )
 
 include(GNUInstallDirs)

@@ -1,0 +1,1 @@
+/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/appLocalizator_autogen/include/../EWIEGA46WW/moc_positionmanager.cpp.json

@@ -1,0 +1,5 @@
+module Localizator
+typeinfo appLocalizator.qmltypes
+prefer :/Localizator/
+Main 1.0 Main.qml
+

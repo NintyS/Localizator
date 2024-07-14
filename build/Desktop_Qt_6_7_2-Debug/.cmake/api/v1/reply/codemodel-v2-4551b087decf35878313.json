@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3b91a189063ead0608ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Localizator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-1cac0b032f582626177b.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-c727ff9cb44b3cefd3cb.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-3cad606d2f57743b2884.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-8c75344b3749c65fd4bc.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator-Debug-82c7a6752928dc039499.json",
+					"name" : "appLocalizator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_autogen-Debug-44e8a342de7e96d10107.json",
+					"name" : "appLocalizator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_autogen_timestamp_deps-Debug-5e2a1f19209f00b01cb5.json",
+					"name" : "appLocalizator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmlimportscan-Debug-0e737c54f97049f3be67.json",
+					"name" : "appLocalizator_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmllint-Debug-154ae676381b94b2e6dc.json",
+					"name" : "appLocalizator_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmllint_json-Debug-ed5da09667a33dcc910c.json",
+					"name" : "appLocalizator_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmllint_module-Debug-b328b22799c4db6ad120.json",
+					"name" : "appLocalizator_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmltyperegistration-Debug-263d09e7beefcc626837.json",
+					"name" : "appLocalizator_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_tooling-Debug-b40d72b984db6c3cb006.json",
+					"name" : "appLocalizator_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nintys/Documents/Localizator/build/Desktop_Qt_6_7_2-Debug",
+		"source" : "/home/nintys/Documents/Localizator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,241 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ab2590256223a8be5967.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Localizator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-ff8842104b20b2cab5d6.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-0366ff144a72b760e815.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-2010f7594b3fb10728d3.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-2ec1bf1e429638ab9706.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-111ffd699edf51f27c27.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-4feb3159f853dfd729e9.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-8c69fd207322ca5bf1b0.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-61cecff2a2bc9bf93202.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator-Debug-aaa1198d54e835e8391e.json",
+					"name" : "appLocalizator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_autogen-Debug-ecccb8f8f10f619731f3.json",
+					"name" : "appLocalizator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_autogen_timestamp_deps-Debug-8838f1241b0354f5fb94.json",
+					"name" : "appLocalizator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_make_aab-Debug-759ef249fb02ec0f0d1d.json",
+					"name" : "appLocalizator_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_make_apk-Debug-96de87c8ccbfd1629de3.json",
+					"name" : "appLocalizator_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_other_files-Debug-883e60047d0077c54b9d.json",
+					"name" : "appLocalizator_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_prepare_apk_dir-Debug-fe2f4faefaba2719679f.json",
+					"name" : "appLocalizator_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmllint-Debug-2d3e3314ee66501a1ce2.json",
+					"name" : "appLocalizator_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmllint_json-Debug-2a439ffd3b162833e8f6.json",
+					"name" : "appLocalizator_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmllint_module-Debug-ee71bfa384522d828181.json",
+					"name" : "appLocalizator_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_qmltyperegistration-Debug-ee78d3cd1d86b14d4146.json",
+					"name" : "appLocalizator_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLocalizator_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLocalizator_tooling-Debug-467b8000e5d243feff62.json",
+					"name" : "appLocalizator_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-01007ecdc3457aaf76fa.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug",
+		"source" : "/home/nintys/Documents/Localizator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
