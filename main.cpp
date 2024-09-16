@@ -2,26 +2,24 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
-#include "positionmanager.h"
+#include <networkmanager.h>
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    PositionManager pm;
+    NetworkManager nM;
 
     QQmlApplicationEngine engine;
+    engine.rootContext()->setContextProperty("nM", &nM);
 
-    engine.rootContext()->setContextProperty("pm", &pm);
-
-    const QUrl url(QStringLiteral("qrc:/Localizator/Main.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.load(url);
+    engine.loadFromModule("Localizator", "Main");
 
     return app.exec();
 }

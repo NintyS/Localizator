@@ -4,9 +4,9 @@ project(Localizator VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.4 REQUIRED COMPONENTS Quick Positioning Location Network)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Quick Location Positioning Network)
 
-qt_standard_project_setup()
+qt_standard_project_setup(REQUIRES 6.5)
 
 qt_add_executable(appLocalizator
     main.cpp
@@ -18,7 +18,9 @@ qt_add_qml_module(appLocalizator
     VERSION 1.0
     QML_FILES
         Main.qml
-        SOURCES positionmanager.h positionmanager.cpp
+        RESOURCES android/AndroidManifest.xml android/build.gradle android/res/values/libs.xml android/res/xml/qtprovider_paths.xml android/gradle/wrapper/gradle-wrapper.jar android/gradle/wrapper/gradle-wrapper.properties android/gradle.properties android/gradlew android/gradlew.bat
+        RESOURCES android/AndroidManifest.xml
+        SOURCES networkmanager.h networkmanager.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -36,8 +38,9 @@ set_property(TARGET appLocalizator APPEND PROPERTY
     QT_ANDROID_PACKAGE_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/android
 )
 
+
 target_link_libraries(appLocalizator
-    PRIVATE Qt6::Quick Qt6::Positioning Qt6::Location Qt6::Network
+    PRIVATE Qt6::Quick Qt6::Location Qt6::Positioning Qt6::Network
 )
 
 include(GNUInstallDirs)
