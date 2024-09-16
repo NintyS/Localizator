@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appLocalizator_FILE /home/nintys/Documents/Localizator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/libappLocalizator_arm64-v8a.so)
-set(__QT_DEPLOY_TARGET_appLocalizator_TYPE MODULE_LIBRARY)

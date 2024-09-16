@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appLocalizator_FILE /home/nintys/Documents/Localizator/build/Desktop_Qt_6_7_2-Debug/appLocalizator)
-set(__QT_DEPLOY_TARGET_appLocalizator_TYPE EXECUTABLE)

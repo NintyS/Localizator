@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/Localizator/">
-    <file alias="Main.qml">/home/nintys/Documents/Localizator/Main.qml</file>
-  </qresource>
-</RCC>
-
