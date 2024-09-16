@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>lock_open.svg</file>
+        <file>lock.svg</file>
+    </qresource>
+</RCC>

@@ -8,6 +8,8 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Quick Location Positioning Network)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
+set(CMAKE_AUTORCC ON)
+
 qt_add_executable(appLocalizator
     main.cpp
     MANUAL_FINALIZATION
@@ -21,6 +23,7 @@ qt_add_qml_module(appLocalizator
         RESOURCES android/AndroidManifest.xml android/build.gradle android/res/values/libs.xml android/res/xml/qtprovider_paths.xml android/gradle/wrapper/gradle-wrapper.jar android/gradle/wrapper/gradle-wrapper.properties android/gradle.properties android/gradlew android/gradlew.bat
         RESOURCES android/AndroidManifest.xml
         SOURCES networkmanager.h networkmanager.cpp
+        RESOURCES images.qrc
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

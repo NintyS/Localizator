@@ -24,6 +24,23 @@ void NetworkManager::sendData(double latitude, double longitude) {
     // Wysyłamy żądanie POST
     QNetworkReply* reply = manager->post(request, jsonData);
 
+    QTimer *timer = new QTimer(this);
+    connect(timer, &QTimer::timeout, this, [&]{
+        reply->abort();
+    });
+
+    timer->start(5000);
+
+    connect(reply, &QNetworkReply::finished, this, [&]{
+        qDebug() << reply->error();
+
+        if ( reply->errorString() != "" ) {
+            connected = false;
+        } else {
+            connected = true;
+        }
+    });
+
 }
 
 void NetworkManager::registerDevice() {
@@ -39,6 +56,14 @@ void NetworkManager::registerDevice() {
     QNetworkReply *reply = manager->post(request, QByteArray());
     qDebug() << reply;
 
+}
+
+bool NetworkManager::isConnected() {
+    return connected;
+}
+
+bool NetworkManager::isSSL() {
+    return ssl;
 }
 
 QString NetworkManager::getUUID() {
